@@ -1,2 +1,5 @@
-# readMeGenerator-
-Working with ES6 &amp; Node.js 
+# readmeGenerator-ES6
+  ![Github license] (https://img.shields.io/badge/license-MIT-blue.svg)
+
+### Description
+

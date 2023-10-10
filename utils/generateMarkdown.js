@@ -1,7 +1,7 @@
 // function to generate markdown for README
 const renderLicenseBadge = (license) => {
   if (license !== "None") {
-    return `![Github license] (https://img.shields.io/badge/license-${license}-blue.svg)`
+    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`
   }
   return ''
 }
@@ -14,7 +14,7 @@ const renderLicensLink = (license) => {
 }
 
 function generateMarkdown(data) {
-  console.log(data)
+  console.log(data);
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
 
@@ -32,7 +32,7 @@ ${renderLicensLink(data.license)}
 
 * [Contributing](#contributing)
 
-* [Test](#test)
+* [Tests](#Tests)
 
 * [Questions](#questions)
 

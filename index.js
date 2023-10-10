@@ -38,19 +38,19 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'what command should be run to install dependencies? ',
+        message: 'What command should be run to install dependencies? ',
         default: 'npm i'
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'what command should be run to run test? ',
+        message: 'What command should be run to run test? ',
         default: 'npm test'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'what does the user need to know about using the repo? '
+        message: 'What does the user need to know about using the repo? '
     },
     {
         type: 'input',
